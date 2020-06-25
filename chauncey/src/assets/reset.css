@@ -1,0 +1,71 @@
+/* 默认样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+}
+
+.markdown-body {
+    color: #fff !important;
+}
+
+.v-note-wrapper {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    height: 100% !important;
+}
+
+.v-note-wrapper .v-note-panel .v-note-show .v-show-content {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.v-note-wrapper .v-note-op {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.v-note-wrapper .v-note-op .op-icon {
+    color: #fff !important;
+}
+
+.v-note-wrapper .v-note-op .op-icon:hover,
+.v-note-wrapper .v-note-op .op-icon.selected {
+    color: #333 !important;
+}
+
+.v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper .content-input-wrapper {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper .content-input-wrapper .content-input {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.auto-textarea-wrapper .auto-textarea-input {
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.markdown-body table tr {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.markdown-body h6 {
+    color: #fff !important;
+}
+
+.markdown-body pre {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
